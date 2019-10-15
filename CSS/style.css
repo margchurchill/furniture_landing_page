@@ -180,8 +180,11 @@ body {
       }
       #heroGrid {
           grid-template-areas: 
-          "featuredProduct featuredProduct"
-          "secondaryProduct CTA";
+          "featuredProduct"
+          "secondaryProduct" 
+          "CTA";
+          grid-template-columns: 1fr;
+          grid-template-rows: 1fr;
       }
       #categoryGrid {
           grid-template-rows: 300px 300px 300px 300px 300px;
